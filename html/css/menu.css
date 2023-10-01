@@ -1,0 +1,125 @@
+/*
+* Import Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400');
+
+/*
+* General Styles
+*/
+
+#menu_container
+{
+    margin-top: 15px;
+    margin-left: 15px;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    /* background-color: rgb(23 23 23 / 80%); */
+    /*border: 2px solid rgb(236, 240, 241);*/
+
+    width: 47px;
+    max-height: 78vh;
+    
+    border-radius: 1.2vh;
+}
+
+#menu_banner {
+    width: 41vh;
+}
+
+#menu_heading
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18pt;
+    font-style: oblique;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #36404b;
+    padding: .5vh .5vh 0 .5vh;
+    width: 40vh;
+}
+
+#menu_subheading
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #36404b;
+    width: 41vh;
+    padding-bottom: .9vh;
+}
+
+#menu_items
+{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+
+    list-style-type: none;
+    text-align: left;
+    line-height: 33px;
+
+    width: 41vh;
+}
+
+#menu_items li
+{
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menu_items li:nth-child(even)
+{
+    background-color: #1c252eb7;
+}
+
+#menu_items li:nth-child(odd)
+{
+    background-color: #1b3d58b7;
+}
+
+.item_selected
+{
+    background-color: rgb(236, 240, 241) !important;
+    color: black;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 400;
+}
+
+#menu_status
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    font-style: oblique;
+    font-weight: 400;
+    color: #171717;
+    
+    background-color: #ededed;
+
+    width: 41vh;
+}
+
+#menu_directions
+{
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    text-align: center;
+    font-size: 18pt;
+    color: #ededed;
+    width: 41vh;
+    background-color: #36404b;
+}
